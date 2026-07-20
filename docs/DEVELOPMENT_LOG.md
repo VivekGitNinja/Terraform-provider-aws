@@ -24,3 +24,6 @@ Standardized H2/H3 header tags across S3 docs.
 ### [2026-07-20 14:14:23] internal/retry: clarify state transition timeout constants
 Added explanatory notes for state wait-for-status retries.
 
+### [2026-07-20 14:28:07] docs: update Lambda function configuration guide
+Updated Lambda execution environment documentation.
+
