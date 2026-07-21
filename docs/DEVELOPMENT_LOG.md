@@ -30,3 +30,6 @@ Updated Lambda execution environment documentation.
 ### [2026-07-20 15:22:00] internal/service/kms: add explanatory notes to key rotation logic
 Clarified KMS key rotation state transition helpers.
 
+### [2026-07-21 16:49:52] docs: expand DynamoDB table schema example
+Added realistic DynamoDB attribute definition examples.
+
