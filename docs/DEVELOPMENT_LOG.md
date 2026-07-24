@@ -75,3 +75,6 @@ Clarified provider context initialization comments.
 ### [2026-07-24 15:30:19] docs: update IAM role policy example in website documentation
 Updated IAM role policy JSON example in website docs.
 
+### [2026-07-24 16:21:07] internal/tags: update resource tag validation docstrings
+Added docstrings for tag validation helpers.
+
