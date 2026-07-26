@@ -99,3 +99,6 @@ Enhanced Framework attribute validator commentary.
 ### [2026-07-26 12:10:56] docs: update EKS cluster networking configuration guide
 Refined EKS VPC CNI configuration doc notes.
 
+### [2026-07-26 19:07:35] internal/service/rds: refine subnet group helper comments
+Documented DB subnet group creation logic.
+
