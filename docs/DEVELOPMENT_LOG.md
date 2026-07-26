@@ -105,3 +105,6 @@ Documented DB subnet group creation logic.
 ### [2026-07-26 20:35:56] docs: format markdown table alignment across provider docs
 Fixed table column alignment in markdown documents.
 
+### [2026-07-26 21:07:09] internal/flex: clarify map conversion helper function commentary
+Added inline annotations for AutoFlex map conversions.
+
