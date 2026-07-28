@@ -117,3 +117,6 @@ Documented SQS policy structure expander.
 ### [2026-07-27 21:54:51] docs: clarify FAQ entry for provider credentials resolution
 Updated credentials chain resolution FAQ text.
 
+### [2026-07-28 10:03:47] internal/service/sns: refine topic subscription inline comments
+Refined SNS topic subscription helper notes.
+
