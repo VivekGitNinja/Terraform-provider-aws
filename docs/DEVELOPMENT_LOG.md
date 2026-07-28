@@ -126,3 +126,6 @@ Updated markdown guide for VPC route table configurations.
 ### [2026-07-28 17:23:05] internal/service/ec2: update inline comments for route table associations
 Refined helper function commentary in EC2 service package.
 
+### [2026-07-28 20:37:16] docs: format code snippets in provider usage guide
+Cleaned up HCL code block formatting in documentation.
+
