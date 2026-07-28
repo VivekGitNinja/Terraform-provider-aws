@@ -120,3 +120,6 @@ Updated credentials chain resolution FAQ text.
 ### [2026-07-28 10:03:47] internal/service/sns: refine topic subscription inline comments
 Refined SNS topic subscription helper notes.
 
+### [2026-07-28 15:35:56] docs: update resource documentation for VPC routing tables
+Updated markdown guide for VPC route table configurations.
+
