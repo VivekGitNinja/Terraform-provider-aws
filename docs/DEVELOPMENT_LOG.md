@@ -132,3 +132,6 @@ Cleaned up HCL code block formatting in documentation.
 ### [2026-07-28 21:05:00] internal/conns: refine AWS client configuration context comments
 Clarified provider context initialization comments.
 
+### [2026-07-29 17:26:57] docs: update IAM role policy example in website documentation
+Updated IAM role policy JSON example in website docs.
+
