@@ -153,3 +153,6 @@ Clarified KMS key rotation state transition helpers.
 ### [2026-07-30 17:33:07] docs: expand DynamoDB table schema example
 Added realistic DynamoDB attribute definition examples.
 
+### [2026-07-30 17:42:39] internal/framework: update custom attribute validator comments
+Enhanced Framework attribute validator commentary.
+
