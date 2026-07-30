@@ -138,3 +138,6 @@ Updated IAM role policy JSON example in website docs.
 ### [2026-07-29 20:39:40] internal/tags: update resource tag validation docstrings
 Added docstrings for tag validation helpers.
 
+### [2026-07-30 11:30:35] docs: standardize heading formatting in S3 documentation
+Standardized H2/H3 header tags across S3 docs.
+
