@@ -141,3 +141,6 @@ Added docstrings for tag validation helpers.
 ### [2026-07-30 11:30:35] docs: standardize heading formatting in S3 documentation
 Standardized H2/H3 header tags across S3 docs.
 
+### [2026-07-30 11:38:34] internal/retry: clarify state transition timeout constants
+Added explanatory notes for state wait-for-status retries.
+
