@@ -168,3 +168,6 @@ Fixed table column alignment in markdown documents.
 ### [2026-07-31 17:05:15] internal/flex: clarify map conversion helper function commentary
 Added inline annotations for AutoFlex map conversions.
 
+### [2026-07-31 17:55:24] docs: update Route53 record configuration examples
+Added alias record example snippets to Route53 docs.
+
