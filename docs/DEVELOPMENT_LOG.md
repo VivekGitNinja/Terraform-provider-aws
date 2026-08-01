@@ -189,3 +189,6 @@ Refined helper function commentary in EC2 service package.
 ### [2026-08-01 18:18:46] docs: format code snippets in provider usage guide
 Cleaned up HCL code block formatting in documentation.
 
+### [2026-08-01 18:32:02] internal/conns: refine AWS client configuration context comments
+Clarified provider context initialization comments.
+
