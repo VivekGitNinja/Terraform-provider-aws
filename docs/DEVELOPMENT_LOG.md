@@ -207,3 +207,6 @@ Added explanatory notes for state wait-for-status retries.
 ### [2026-08-03 12:48:43] docs: update Lambda function configuration guide
 Updated Lambda execution environment documentation.
 
+### [2026-08-03 16:55:34] internal/service/kms: add explanatory notes to key rotation logic
+Clarified KMS key rotation state transition helpers.
+
