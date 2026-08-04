@@ -216,3 +216,6 @@ Added realistic DynamoDB attribute definition examples.
 ### [2026-08-03 19:24:43] internal/framework: update custom attribute validator comments
 Enhanced Framework attribute validator commentary.
 
+### [2026-08-04 17:14:15] docs: update EKS cluster networking configuration guide
+Refined EKS VPC CNI configuration doc notes.
+
