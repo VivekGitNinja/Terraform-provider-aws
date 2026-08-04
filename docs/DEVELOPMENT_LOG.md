@@ -222,3 +222,6 @@ Refined EKS VPC CNI configuration doc notes.
 ### [2026-08-04 17:42:40] internal/service/rds: refine subnet group helper comments
 Documented DB subnet group creation logic.
 
+### [2026-08-04 19:05:20] docs: format markdown table alignment across provider docs
+Fixed table column alignment in markdown documents.
+
