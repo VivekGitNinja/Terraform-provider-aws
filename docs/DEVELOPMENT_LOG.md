@@ -234,3 +234,6 @@ Added alias record example snippets to Route53 docs.
 ### [2026-08-05 19:08:54] internal/service/sqs: update queue policy helper annotations
 Documented SQS policy structure expander.
 
+### [2026-08-05 19:53:18] docs: clarify FAQ entry for provider credentials resolution
+Updated credentials chain resolution FAQ text.
+
