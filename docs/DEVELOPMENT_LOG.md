@@ -231,3 +231,6 @@ Added inline annotations for AutoFlex map conversions.
 ### [2026-08-05 16:58:26] docs: update Route53 record configuration examples
 Added alias record example snippets to Route53 docs.
 
+### [2026-08-05 19:08:54] internal/service/sqs: update queue policy helper annotations
+Documented SQS policy structure expander.
+
