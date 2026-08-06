@@ -18,6 +18,7 @@ permissions:
 
 jobs:
   close-stale-drafts:
+    if: github.repository_owner == 'hashicorp'
     runs-on: ubuntu-latest
     steps:
       - name: Close stale draft PRs

@@ -13,6 +13,7 @@ permissions:
 
 jobs:
   Comment:
+    if: github.repository_owner == 'hashicorp'
     name: 'Post-Release Comment'
     runs-on: ubuntu-latest
     steps:
@@ -24,6 +25,7 @@ jobs:
             For further feature requests or bug reports with this functionality, please create a [new GitHub issue](https://github.com/${{ github.repository }}/issues/new/choose) following the template. Thank you!
 
   archive_and_unlabel:
+    if: github.repository_owner == 'hashicorp'
     name: 'Archive Project Items & Remove Label on Milestone Closed'
     runs-on: ubuntu-latest
     env:

@@ -13,6 +13,7 @@ permissions:
 
 jobs:
   coverage:
+    if: github.repository_owner == 'hashicorp'
     runs-on: ubuntu-latest
     steps:
       - name: Generate Token

@@ -37,7 +37,7 @@ jobs:
   workboard:
     name: Team Workboard
     runs-on: ubuntu-latest
-    if: contains(fromJSON('["assigned", "labeled", "opened"]'), github.event.action)
+    if: github.repository_owner == 'hashicorp' && contains(fromJSON('["assigned", "labeled", "opened"]'), github.event.action)
     env:
       CURRENT_LABELS: ${{ github.event_name == 'issues' && toJSON(github.event.issue.labels.*.name) || toJSON(github.event.pull_request.labels.*.name) }}
       GH_CLI_SUBCOMMAND: ${{ github.event_name == 'pull_request_target' && 'pr' || 'issue' }}
@@ -100,7 +100,7 @@ jobs:
   slack:
     name: Slack Feeds
     runs-on: ubuntu-latest
-    if: github.event.action != 'assigned' # the only situation without any notifications
+    if: github.repository_owner == 'hashicorp' && github.event.action != 'assigned' # the only situation without any notifications
     env:
       ISSUE_TITLE: ${{ github.event.issue.title || github.event.pull_request.title }}
       AUTHOR_URL: ${{ github.event.issue.user.html_url || github.event.pull_request.user.html_url }}
