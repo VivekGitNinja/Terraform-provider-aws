@@ -243,3 +243,6 @@ Refined SNS topic subscription helper notes.
 ### [2026-08-06 12:55:22] docs: update resource documentation for VPC routing tables
 Updated markdown guide for VPC route table configurations.
 
+### [2026-08-06 15:57:33] internal/service/ec2: update inline comments for route table associations
+Refined helper function commentary in EC2 service package.
+
